@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Hazır fonksiyonlar : <br><br>
+    eval <br><br>
+    isNaN <br>
+    <br>
+
+    eval() : bir argümanı değerlendiren veya çalıştıran (evaluate/execute) fonksiyondur.
+
+    <br><br>
+
+    isNaN() : Gelen veri yada değişkenin sadece rakamlardan oluşup oluşmadığını anlamak için kullanılır. sadece rakamlardan oluşuyorsa false aksi halde true döner.
+
+    <br>
+    <br>
+
+    <script lang="javascript">
+
+        var a = 10;
+        var b = 20;
+
+        var carp = eval("a*b");
+        var topla = eval("a+b");
+        var bol = eval("a/b");
+
+        document.write("A : "+a+"<br><br>");
+        document.write("B : "+b+"<br><br>");
+
+        document.write("Çarp : "+carp+"<br><br>");
+        document.write("Topla : "+topla+"<br><br>");
+        document.write("Böl : "+bol+"<br><br>");
+
+        document.write("1a2b : "+isNaN("1a2b")+"<br><br>");
+        document.write("123 : "+isNaN("123")+"<br><br>");
+
+    </script>
+
+</body>
+</html>
