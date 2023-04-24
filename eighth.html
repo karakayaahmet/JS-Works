@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script type="text/javascript">
+        function aile(){
+            var h = ["Ali","Ayşe"];
+            var s = ["Fatih", "İbrahim", "Erkan"];
+            var k = ["Resul"];
+
+            var c = h.concat(s);
+            var b = c.concat(k);
+
+            document.write("Aile: "+b+"<br>");
+            document.write("Çocuklar: "+c+"<br>");
+        }
+    </script>
+</head>
+<body>
+    concat birden fazla dizi değişkenini tek bir dizi içerisinde toplamaya yarayan bir metottur.
+
+    <input type="button" onclick="aile()" value="Göster">
+</body>
+</html>
